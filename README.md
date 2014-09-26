@@ -18,3 +18,7 @@ env x='() { :;}; echo vulnerable' bash -c 'echo hello'
 ```
 
 If you see `vulnerable`, you are vulnerable.
+
+# Disclaimer
+
+I am *NOT* the author of this script. AlBlue did it and you can read more about it here : http://alblue.bandlem.com/2014/09/bash-remote-vulnerability.html
